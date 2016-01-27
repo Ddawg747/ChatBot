@@ -23,4 +23,7 @@ while True:
 			if "You Suck" in message:
 				sendMessage(s, "No, you suck!")
 				break
+			if "!quote 1" in message:
+				sendMessage(s, "People need to know ferrets are metal as fuck -Deveral")
+				break
 			
